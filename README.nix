@@ -27,6 +27,7 @@
     # TODO: fedi
   };
   ref = "maevi.net"; # NOTE: IPv6-only, v4.maevi.net if your ISP is still stuck in the 90s
+  api = "me.maevi.net"; #    ^^^^^^^^^
 
   keys = [
     (import ./pgp.nix {
