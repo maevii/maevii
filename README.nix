@@ -1,9 +1,7 @@
 {
   serial = "AZ-07F";
-  name = "Maevi";
-  aliases = [
-    "azey7f" # NOTE: deprecated
-  ];
+  name = "Mae";
+  aliases = ["maevi"];
 
   description = "a vaguely femme consciousness trapped in a human body, trying to make the best of life";
 
@@ -25,7 +23,8 @@
     mailto = "me@maevi.net";
     codeberg = "maevi";
     github = "maevii";
-    # TODO: matrix, fedi
+    matrix = "@m:v4.maevi.net";
+    # TODO: fedi
   };
   ref = "maevi.net"; # NOTE: IPv6-only, v4.maevi.net if your ISP is still stuck in the 90s
 

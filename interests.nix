@@ -4,21 +4,17 @@
     arch = ["x86_64" "aarch64"];
 
     shell = "fish";
-    ide = "neovim"; # without plugins, I might add
+    ide = "neovim"; # without plugins. sometimes astronvim if I feel fancy though
 
     desktop = {
-      environment = ["niri" "Hyprland" "KDE"];
+      environment = ["niri" "KDE"];
       browser = "librewolf";
       term = "kitty";
     };
 
     # see https://git.maevi.net/infra/nixos-servers
     infra = {
-      domains = [
-        "maevi.net"
-        "azey.net" # NOTE: deprecated
-        "REDACTED FOR PRIVACY"
-      ];
+      domains = ["maevi.net"];
 
       networking = {
         ip.version = 6;
