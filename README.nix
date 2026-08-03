@@ -1,3 +1,19 @@
+#            ,            .                                             ,                                           #
+#         .   \                 ,           oh hello                                             ,         ,        #
+#              o                       .                   .                       ,                                #
+#   .           \                                 ,                                                             .   #
+#               #\##\#      .                                               I didn't see you there       .          #
+#             #  #O##\###                .            ,           .              .                   ,              #
+#   .        #*#  #\##\###                       .                     ,                   .                    ,   #
+#        .   ##*#  #\##\##               .                     .                .                          .        #
+#      .      ##*#  #o##\#         .             won't you dance with me?                ,       .                  #
+#          .     *#  #\#     .                    .             .          ,                             ,          #
+#                      \          .                         .                      ,                  .           , #
+#____^/\___^--____/\____O______________/\/\---/\___________---______________/^\__-______/\--/\/\---^----/\_______/\_#
+#  /\^   ^  ^    ^                  ^^ ^  '\ ^          ^       ---                       ^/\      _        _    ^  #
+#         --      __   -            --  -      -         ---  __       ^     __     ^           -       __     -    #
+#-------------------------------------------------------------------------------------------------------------------#
+# ...
 {
   serial = "AZ-07F";
   name = "Mae";
@@ -5,18 +21,10 @@
 
   description = "a vaguely femme consciousness trapped in a human body, trying to make the best of life";
 
-  gender = "girlthing";
+  gender = "female"; # how boring
   pronouns = ["she/her"];
-  age = "REDACTED FOR PRIVACY";
 
-  activities = [
-    "staying alive in a world that wants me dead"
-    "touching computers"
-    "REDACTED FOR PRIVACY"
-    "contributing to nixpkgs et al"
-    "REDACTED FOR PRIVACY"
-    "REDACTED FOR PRIVACY"
-  ];
+  age = "REDACTED FOR PRIVACY";
   location.country = "REDACTED FOR PRIVACY";
 
   contact = {
@@ -26,8 +34,9 @@
     matrix = "@m:v4.maevi.net";
     # TODO: fedi
   };
-  ref = "maevi.net"; # NOTE: IPv6-only, v4.maevi.net if your ISP is still stuck in the 90s
-  api = "me.maevi.net"; #    ^^^^^^^^^
+
+  ref = "maevi.net"; # NOTE: IPv6-only, try v4.maevi.net if it seems down
+  api = "me.maevi.net";
 
   keys = [
     (import ./pgp.nix {
@@ -40,3 +49,5 @@
     })
   ];
 }
+# EOF
+#-------------------------------------------------then-let-us-dance-------------------------------------------------#
