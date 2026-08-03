@@ -82,7 +82,7 @@
       "rock"
       "various OSTs"
     ];
-    streamingService = "https://navidrome.maevi.net"; # guest:
+    streamingService = "https://navidrome.maevi.net"; # guest:guest
 
     instruments = {
       proficient = [];
