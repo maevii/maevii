@@ -35,7 +35,7 @@
     # TODO: fedi
   };
 
-  ref = "maevi.net"; # NOTE: IPv6-only, try v4.maevi.net if it seems down
+  ref = "maevi.net";
   api = "me.maevi.net";
 
   keys = [
